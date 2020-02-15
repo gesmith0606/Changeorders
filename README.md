@@ -48,6 +48,8 @@ We were able to extract this data from the database and then split the data into
 
 ---
 
-LOF
+## Local Outlier Factor
+With the dataset we have, we are able to set our boundaries for what we could consider normal inside the range of change orders. This allows us to set our frontier. With this classification, any new datasets coming into the subspace set by the frontier woud be considered in the same population as the initial observations. Anything outside of the subspace could be labelled abnormal with greater abnormality emphasized with the greater deviation.
+
 ![LOF.jpg](Images/LOF.png)
  Signal Analysis
