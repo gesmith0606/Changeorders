@@ -30,7 +30,7 @@ To obtain this data we consulted a small startup called TracFlo that collected c
 
 [Selenium](Selenium.ipynb)
 
-
+--- 
 ## Scikit Learn 2.7 and Developing a Model to Detect Outliers
 
 Using Scikit 2.7 we will be able to detect any outliers in the change orders. Based on the data we have obtained, we will use scikit learn to detect any change orders that are considered outliers based on the parameters we set. This will allow us to detect anomalies in the dataset. 
