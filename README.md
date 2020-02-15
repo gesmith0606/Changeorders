@@ -28,7 +28,7 @@ To obtain this data we consulted a small startup called TracFlo that collected c
 
 Using Scikit 2.7 we will be able to detect any outliers in the change orders. Based on the data we have obtained, we will use scikit learn to detect any change orders that are considered outliers based on the parameters we set. This will allow us to detect anomalies in the dataset. 
 
-![ScikitLearn.jpg](Images/ScikitLearn.jpg)
+![ScikitLearn.jpg](Images/ScikitLearn.png)
 
 ## Obtaining  the Data
 Our first challenge was obtaining change order data. This data involves large sums of money as well as negotiation between two parties, so this data is also very sensitive. To try and form a third party database with this information would be unique in its value. The construction industry is very segmented, so aggregating this data from all the different companies is not only difficult, it may have never been documented before. 
