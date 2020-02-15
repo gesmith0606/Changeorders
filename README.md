@@ -28,7 +28,7 @@ To obtain this data we consulted a small startup called TracFlo that collected c
 - Labor Rate
 - Material Cost
 
-[Selenium](Selenium.ipynb)
+[Selenium](eSelenium.ipynb)
 
 --- 
 ## Scikit Learn 2.7 and Developing a Model to Detect Outliers
@@ -44,4 +44,10 @@ This idea of applying a machine learning method to this data to detect fraudulen
 
 
 ### Train, Test and Split
-We were able to extract this data from the database and then split the data into training and testing data. After this we standardized the data by scaling it using StandardScalar.  This brought all our data onto a standard deviation scale, with 1 standard deviation =1.0  From here we are able 
+We were able to extract this data from the database and then split the data into training and testing data. After this we standardized the data by scaling it using StandardScalar.  This brought all our data onto a standard deviation scale and will allow us to detect a change order outside of a certain standard deviation. From here we are able build the model to allow us to take in new values and possibly flag fraudulent activity.
+
+---
+
+LOF
+![LOF.jpg](Images/LOF.png)
+ Signal Analysis
