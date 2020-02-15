@@ -9,9 +9,15 @@ For our final project, we are taking a look at how we can apply machine learning
 Although emerging technologies have improved some parts of the construction industry, there are still areas where emerging technologies are slow to be adopted.Everything from the bidding process, to the documentation is ripe for technology to help this industry move into the forefront of the tech industry.
 When creating a contract between a developer and a contractor, a scope of work is defined. This is a detailed account of the work to be done and by whom in a certain amount of time. Unfortunately, there is always some unforeseen circumstance that can cause delays or end up adding to a cost previously unknown. If the laborers stopped working everytime something was ‘out of scope’ the project would never get finished, so construction contracts contain an allowance for change orders. These are amendments to the original contract that need to get done to complete the project, but also need to be paid for. While this is usually a paper ticket that needs to be accounted for later, recently the construction industry has been incorporating technology for documentation of these change orders. In addition to keeping a better log of these change orders, companies have also been able to record all the data from the change orders and store this information. We will be taking this data and seeing if we can use machine learning to help better predict the variance in cost associated with change orders. Using certain classification algorithms, we will see if we are able to analyze this data and bring value to developers by helping write better contracts.
 
+With Machine Learning, we feel we can improve upon multiple aspects of the construction industry:
+- Increase the accuracy of estimating
+- Supporting faster estimation while using less resources
+
+
 
 ## Selenium & API
 To obtain this data we consulted a small startup called TracFlo that collected change order data. From their database, we were able to use 'Selenium' to create a pipeline from their database to pull the information we needed.
+
 
 ![API](Images/Selenium.gif)
 
@@ -22,6 +28,7 @@ To obtain this data we consulted a small startup called TracFlo that collected c
 - Labor Rate
 - Material Cost
 
+[Selenium](Selenium.ipynb)
 
 
 ## Scikit Learn 2.7 and Developing a Model to Detect Outliers
