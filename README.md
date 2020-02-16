@@ -1,5 +1,4 @@
 # Good Guys Developer Group
-## Contributors
 ### George Smith, Jonathan Matos, Brian Kim & Carl Boitz
 ---
 
@@ -43,7 +42,7 @@ $ git install Selenium
 - Labor Rate
 - Material Cost
 
-[Selenium](eSelenium.ipynb)
+[Selenium](Code/eSelenium.ipynb)
 
 --- 
 ## Scikit Learn 2.7 and Developing a Model to Detect Outliers
