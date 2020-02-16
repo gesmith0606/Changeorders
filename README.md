@@ -42,7 +42,7 @@ $ git install Selenium
 - Labor Rate
 - Material Cost
 
-[Selenium](Code/eSelenium.ipynb)
+[Selenium](Code/Selenium.ipynb)
 
 --- 
 ## Scikit Learn 2.7 and Developing a Model to Detect Outliers
