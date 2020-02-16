@@ -24,6 +24,10 @@ With Machine Learning, we feel we can improve upon multiple aspects of the const
 - Supporting faster estimation while using less resources
  - Helping detect fraudulent change orders or outliers
 
+## Obtaining  the Data
+Our first challenge was obtaining change order data. This data involves large sums of money as well as negotiation between two parties, making this data very sensitive. To try and form a third party database with this information would be unique in its value. The construction industry is very segmented, so aggregating this data from all the different companies is not only difficult, it may have never been documented before. 
+This idea of applying a machine learning method to this data to detect fraudulent activity is novel but has taken another role in the construction industry as an Estimator. This is the expert on the field that has the experience and ability to eye a project and develop a cost estimate of time and materials. We are trying to take make his job easier by applying a statistical approach to this data.
+
 
 ## Selenium & API
 To obtain this data we consulted a small startup called [TracFlo](https://tracfloapp.com/) that collects change order data. From their database, we were able to use [Selenium](https://selenium-python.readthedocs.io/) to create a pipeline from their database to pull the information we needed.
@@ -42,29 +46,21 @@ $ git install Selenium
 - Labor Rate
 - Material Cost
 
-[Selenium](Code/Selenium.ipynb)
+code for [Selenium](Code/Selenium.ipynb)
 
 --- 
 ## Scikit Learn 2.7 and Developing a Model to Detect Outliers
 
-Using [Outlier Detection](https://scikit-learn.org/stable/modules/outlier_detection.html) we will be able to detect any outliers in the change orders. Based on the data we have obtained, we will use scikit learn to detect any change orders that are considered outliers based on the parameters we set. This will allow us to detect anomalies in the dataset. 
+Using [Outlier Detection](https://scikit-learn.org/stable/modules/outlier_detection.html) we will be able to set a boundary for what we felt was a normal change order and detect any outliers that may occur. This will allow us to detect anomalies in the dataset. 
 
 ![ScikitLearn.jpg](Images/ScikitLearn.png)
 
-
-## Obtaining  the Data
-Our first challenge was obtaining change order data. This data involves large sums of money as well as negotiation between two parties, so this data is also very sensitive. To try and form a third party database with this information would be unique in its value. The construction industry is very segmented, so aggregating this data from all the different companies is not only difficult, it may have never been documented before. 
-This idea of applying a machine learning method to this data to detect fraudulent activity is novel but has taken another role in the construction industry as an Estimator. This is the expert on the field that has the experience and ability to eye a project and develop a cost estimate of time and materials. We are trying to take his job and apply a statistical approach to this information.
-
-
-
 ### Train, Test and Split
 We were able to extract this data from the database and then split the data into training and testing data. After this we standardized the data by scaling it using StandardScalar.  This brought all our data onto a standard deviation scale and will allow us to detect a change order outside of a certain standard deviation. From here we are able build the model to allow us to take in new values and possibly flag fraudulent activity.
-
----
 
 ## Local Outlier Factor
 With the dataset we have, we are able to set our boundaries for what we could consider normal inside the range of change orders. This allows us to set our frontier. With this classification, any new datasets coming into the subspace set by the frontier woud be considered in the same population as the initial observations. Anything outside of the subspace could be labelled abnormal with greater abnormality emphasized with the greater deviation.
 
 ![LOF.jpg](Images/LOF.png)
- Signal Analysis
+
+---
