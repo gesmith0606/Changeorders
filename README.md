@@ -19,7 +19,7 @@ With Machine Learning, we feel we can improve upon multiple aspects of the const
 To obtain this data we consulted a small startup called TracFlo that collected change order data. From their database, we were able to use 'Selenium' to create a pipeline from their database to pull the information we needed.
 
 
-![API](Images/Selenium.gif)
+ WIll Fix later[API](Images/Selenium.gif)
 
  The main factors of information we pulled included:
 - Total Cost of the change order
