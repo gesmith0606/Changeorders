@@ -1,4 +1,5 @@
 # Good Guys Developer Group
+##Contributors
 ### George Smith, Jonathan Matos, Brian Kim & Carl Boitz
 ---
 
@@ -6,7 +7,7 @@
 
 ![Robots1.jpg](Images/Robots1.jpg)
 
-[Selenium](##Selenium & API)
+
 
 ## Introduction to Construction
 
