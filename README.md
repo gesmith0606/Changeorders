@@ -17,7 +17,7 @@ Although emerging technologies have improved some parts of the construction indu
 ### Change Orders
 When creating a contract between a developer and a contractor, a scope of work is defined. This is a detailed account of the work to be done and by whom in a certain amount of time. Unfortunately, there is always some unforeseen circumstance that can cause delays or end up adding to a cost previously unknown. If the laborers stopped working everytime something was ‘out of scope’ the project would never get finished, so construction contracts contain an allowance for change orders. These are amendments to the original contract that need to get done to complete the project, but also need to be paid for. While this is usually a paper ticket that needs to be accounted for later, recently the construction industry has been incorporating technology for documentation of these change orders. In addition to keeping a better log of these change orders, companies have also been able to record all the data from the change orders and store this information. We will be taking this data and seeing if we can use machine learning to help better predict the variance in cost associated with change orders. Using certain classification algorithms, we will see if we are able to analyze this data and bring value to developers by helping write better contracts.
 
-![CO_Flow.jpg](Images/CO_Flow.jpg)
+![CO_Flow.jpg](Images/CO_Flow.png)
 
 With Machine Learning, we feel we can improve upon multiple aspects of the construction industry:
 - Increase the accuracy of estimating
