@@ -1,5 +1,5 @@
 # Good Guys Developer Group
-##Contributors
+## Contributors
 ### George Smith, Jonathan Matos, Brian Kim & Carl Boitz
 ---
 
