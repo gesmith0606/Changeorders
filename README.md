@@ -1,4 +1,4 @@
-# Good Guys Developer Group
+# Applying Machine Learning to the Construction Industry
 ### George Smith, Jonathan Matos, Brian Kim & Carl Boitz
 ---
 
@@ -10,7 +10,7 @@
 
 ## Introduction to Construction
 
-For our final project, we are taking a look at how we can apply machine learning to one of the oldest industries in the world, the construction industry. Real estate and construction have been the framework for the American Dream for hundreds of years, and  seamlessly evolved into one of the main facets of our economy. It has become so integral that homebuilding is one of the main barometers used to measure the health of the country. 
+For our final project, we are taking a look at how we can apply machine learning to one of the oldest industries in the world, the construction industry. Real estate and construction have been the framework for the American Dream for hundreds of years, and  seamlessly evolved into one of the main facets of our economy. It has become so integral that homebuilding is one of the main barometers used to measure the health of the economy. 
 
 Although emerging technologies have improved some parts of the construction industry, there are still areas where emerging technologies are slow to be adopted.Everything from the bidding process, to the documentation is ripe for fintech to help this industry move into the forefront of the tech industry.
 
@@ -64,3 +64,8 @@ With the dataset we have, we are able to set our boundaries for what we could co
 ![LOF.jpg](Images/LOF.png)
 
 ---
+
+![LOFreal.jpg](Images/LOFreal.png)
+
+### Resources
+[Government Accountability Office](https://www.gao.gov/products/GAO-19-500?utm_medium=social&utm_source=twitter&utm_campaign=usgao)
