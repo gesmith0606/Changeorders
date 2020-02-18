@@ -67,5 +67,9 @@ With the dataset we have, we are able to set our boundaries for what we could co
 
 ![LOFreal.jpg](Images/LOFreal.png)
 
+### Results
+   Although our model did not detect any scientifically significant form of fraud that could be identified, we were able to build a model that may be able to detect outliers in the future and possibly stop human error from occuring.
+
 ### Resources
 [Government Accountability Office](https://www.gao.gov/products/GAO-19-500?utm_medium=social&utm_source=twitter&utm_campaign=usgao)
+[New York Building Congress](https://www.buildingcongress.com/advocacy-and-reports/reports-and-analysis/Construction-Outlook-2017-2019.html)
