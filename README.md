@@ -72,7 +72,11 @@ With the dataset we have, we are able to set our boundaries for what we could co
 
 ### Resources
 [Government Accountability Office](https://www.gao.gov/products/GAO-19-500?utm_medium=social&utm_source=twitter&utm_campaign=usgao)
+
 [New York Building Congress](https://www.buildingcongress.com/advocacy-and-reports/reports-and-analysis/Construction-Outlook-2017-2019.html)
+
 [Outlier Detection](https://scikit-learn.org/stable/modules/outlier_detection.html)
+
 [Selenium](https://selenium-python.readthedocs.io/getting-started.html)
+
 [Change Order Detection](https://guide.iacrc.org/potential-scheme-change-order-abuse/)
