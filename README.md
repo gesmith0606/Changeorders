@@ -37,7 +37,7 @@ $ git install Selenium
 ```
 
 
-![API](Images/Selenium.gif)
+
 
  The main factors of information we pulled included:
 - Total Cost of the change order
